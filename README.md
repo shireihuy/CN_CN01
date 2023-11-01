@@ -12,9 +12,3 @@ $ python run central_server.py
 ```bash
 $ python run network_peer.py
 ```
-
-Authors:
-- Nguyen Dang Anh Khoa
-- Nguyen Duc An
-- Tran Chi Cong
-- Cao Tran Anh Khoa
