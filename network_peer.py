@@ -122,7 +122,7 @@ class RegisterPage(tk.Frame):
 
         # Sign Up Image
         signup_pic = ImageTk.PhotoImage(asset.signup_image)
-        signupImg = tk.Label(self, image=signup_pic, bg='white')
+        signupImg = tk.Label(self, image=signup_pic, bg='#1E1E1E')
         signupImg.image = signup_pic
         signupImg.place(x=50, y=50)
 
@@ -161,7 +161,7 @@ class LoginPage(tk.Frame):
         tk.Frame.__init__(self, parent)
         # Login Image
         login_pic = ImageTk.PhotoImage(asset.login_image)
-        loginImg = tk.Label(self, image=login_pic, bg='white')
+        loginImg = tk.Label(self, image=login_pic, bg='#1E1E1E')
         loginImg.image = login_pic
         loginImg.place(x=50, y=50)
 
